@@ -1,0 +1,6 @@
+03/03/2017 00:06:38 -LoggerDemo - DEBUG - debug message
+03/03/2017 00:06:38 -LoggerDemo - INFO - info message
+03/03/2017 00:06:38 -LoggerDemo - WARNING - warning message
+03/03/2017 00:06:38 -LoggerDemo - ERROR - error message
+03/03/2017 00:06:38 -customlogTest - DEBUG - Tracing the logs to debug level
+03/03/2017 00:06:38 -customlogTest - WARNING - tracing the logs to warning level

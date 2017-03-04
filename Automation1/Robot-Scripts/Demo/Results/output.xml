@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170228 15:34:21.241" generator="Robot 3.0.2 (Python 2.7.13 on darwin)">
+<suite source="/Users/amol/PycharmProjects/Automation1/Robot-Scripts/Demo/demoAmazon.robot" id="s1" name="demoAmazon">
+<test id="s1-t1" name="User must check the web page for products">
+<kw name="Begin web test">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://www.google.com</arg>
+<arg>ff</arg>
+</arguments>
+<msg timestamp="20170228 15:34:21.721" level="INFO">Opening browser 'ff' to base url 'http://www.google.com'</msg>
+<status status="PASS" endtime="20170228 15:34:26.747" starttime="20170228 15:34:21.721"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>browser opened successfully</arg>
+</arguments>
+<msg timestamp="20170228 15:34:26.748" level="INFO">browser opened successfully</msg>
+<status status="PASS" endtime="20170228 15:34:26.748" starttime="20170228 15:34:26.747"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+</arguments>
+<msg timestamp="20170228 15:34:26.748" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170228 15:34:29.829" starttime="20170228 15:34:26.748"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>amazon page opened successfully</arg>
+</arguments>
+<msg timestamp="20170228 15:34:29.830" level="INFO">amazon page opened successfully</msg>
+<status status="PASS" endtime="20170228 15:34:29.830" starttime="20170228 15:34:29.830"></status>
+</kw>
+<status status="PASS" endtime="20170228 15:34:29.831" starttime="20170228 15:34:21.720"></status>
+</kw>
+<kw name="Search for products">
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170228 15:34:30.031" starttime="20170228 15:34:29.832"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>css=#twotabsearchtextbox</arg>
+<arg>babys only</arg>
+</arguments>
+<msg timestamp="20170228 15:34:30.031" level="INFO">Typing text 'babys only' into text field 'css=#twotabsearchtextbox'</msg>
+<status status="PASS" endtime="20170228 15:34:30.244" starttime="20170228 15:34:30.031"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>css=#nav-search &gt; form &gt; div.nav-right &gt; div &gt; input</arg>
+</arguments>
+<msg timestamp="20170228 15:34:30.244" level="INFO">Clicking element 'css=#nav-search &gt; form &gt; div.nav-right &gt; div &gt; input'.</msg>
+<status status="PASS" endtime="20170228 15:34:30.322" starttime="20170228 15:34:30.244"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20170228 15:34:33.323" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20170228 15:34:33.323" starttime="20170228 15:34:30.322"></status>
+</kw>
+<status status="PASS" endtime="20170228 15:34:33.323" starttime="20170228 15:34:29.831"></status>
+</kw>
+<kw name="End web test">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170228 15:34:33.514" starttime="20170228 15:34:33.324"></status>
+</kw>
+<status status="PASS" endtime="20170228 15:34:33.515" starttime="20170228 15:34:33.324"></status>
+</kw>
+<doc>Basic testing</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20170228 15:34:33.515" critical="yes" starttime="20170228 15:34:21.720"></status>
+</test>
+<status status="PASS" endtime="20170228 15:34:33.517" starttime="20170228 15:34:21.245"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Smoke</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="demoAmazon" pass="1">demoAmazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

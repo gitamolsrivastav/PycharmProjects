@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170228 00:27:09.990" generator="Robot 3.0.2 (Python 2.7.13 on darwin)">
+<suite source="/Users/amol/PycharmProjects/Automation1/Robot-Scripts/Amazon/Tests/Amazon.robot" id="s1" name="Amazon">
+<test id="s1-t1" name="User must sign in to checkout">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170228 00:27:10.084" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170228 00:27:17.975" starttime="20170228 00:27:10.084"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170228 00:27:18.612" starttime="20170228 00:27:17.975"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170228 00:27:18.697" starttime="20170228 00:27:18.612"></status>
+</kw>
+<doc>This is basic info about test</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20170228 00:27:18.698" critical="yes" starttime="20170228 00:27:10.083"></status>
+</test>
+<doc>This is basic info about suite</doc>
+<status status="PASS" endtime="20170228 00:27:18.701" starttime="20170228 00:27:09.994"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Smoke</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Amazon" pass="1">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
