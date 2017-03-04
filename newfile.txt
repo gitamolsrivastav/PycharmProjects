@@ -12,3 +12,4 @@ adde d
 I like the new branch working_branch
 >>>>>>> working_branch
 adding the new text
+I would pull to loca l repo
