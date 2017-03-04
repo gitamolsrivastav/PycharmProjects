@@ -2,7 +2,7 @@
 
 Documentation  This is basic info about suite
 
-Library  Selenium2Library
+Library  Selenium2Library   #adding the selenium library
 
 *** Variables ***
 
