@@ -1,4 +1,6 @@
 jst testing
+<<<<<<< HEAD
 
 
 checking in master branch
+
